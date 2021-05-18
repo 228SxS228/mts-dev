@@ -13,7 +13,7 @@ const error = require('./middleware/ErrorMiddleware');
 app.use(express.static(path.resolve(__dirname, 'static')));
 app.use(express.json());
 app.use(fileUpload({}));
-app.use('/api', router);
+app.use('/app', router);
 
 //Обработчик ошибок
 app.use(error);
