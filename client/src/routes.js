@@ -28,10 +28,6 @@ export const publicRoutes = [
         Component: Auth
     },
     {
-        path:REGISTRATION_ROUTE,
-        Component: Auth
-    },
-    {
         path:LIBRARY_ROUTE,
         Component:Library
     }
